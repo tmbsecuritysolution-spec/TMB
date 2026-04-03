@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yassine6815.github.io/virtual-card-deep-tech/sitemap.xml

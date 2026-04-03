@@ -1,0 +1,21 @@
+{
+  "name": "TMB Security Solutions",
+  "short_name": "TMB",
+  "description": "Virtual Business Card — TMB Security Solutions",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b1222",
+  "theme_color": "#0b71ff",
+  "icons": [
+    {
+      "src": "./assets/deeptechlogo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/deeptechlogo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

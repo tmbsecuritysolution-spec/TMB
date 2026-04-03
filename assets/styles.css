@@ -18,7 +18,7 @@
 
 html,
 body {
-  height: 100%;
+  min-height: 100%;
   overflow-x: hidden;
 }
 
@@ -28,9 +28,10 @@ body {
   background: var(--bg-gradient);
   color: var(--text-dark);
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 24px;
+  justify-content: flex-start;
+  padding: 1cm 24px 40px; /* 1cm from top */
 }
 
 :lang(ar) {
@@ -65,6 +66,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 5px;
+  transform: translateZ(0); /* Hardware acceleration */
 }
 
 .logo-wrap img#logo {
@@ -78,6 +80,8 @@ body {
   box-shadow: 0 10px 25px rgba(0, 71, 171, 0.08);
   border: 1px solid rgba(0, 71, 171, 0.05);
   transition: var(--transition);
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 @media(min-width: 520px) {
